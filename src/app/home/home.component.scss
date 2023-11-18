@@ -1,0 +1,69 @@
+.Home_Cn{
+    overflow-x: hidden !important;
+    max-width: 100%;
+}
+nav{
+min-height: 70px;
+}
+.nav-bar{
+    height: 70px;
+    background-color: aliceblue;
+}
+.carousel-item{
+    height: 80vh;
+    .content-right-white{
+        position: absolute;
+        right: 10%;
+        bottom: 30%;
+        left: 50%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #ffffff;
+        text-align: center;
+    }
+    .content-right-black{
+        position: absolute;
+        right: 10%;
+        bottom: 30%;
+        left: 50%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #0c0c0c;
+        text-align: center;
+    }
+    .content-left-black{
+        position: absolute;
+        right: 50%;
+        bottom: 30%;
+        left: 10%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #0c0c0c;
+        text-align: center;
+    }
+    .Shop_now{
+        width: max-content;
+        
+        background-color: rgb(255, 255, 255);
+
+    }
+    
+}
+.banner_image{
+    height: 90vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+.About_Shop{
+    margin: 6rem auto 6rem auto;
+    .About_Image{
+        img{
+            width:100%;
+            height:350px;
+            object-fit: cover;
+            object-position: 45%;
+        }
+    }
+}
