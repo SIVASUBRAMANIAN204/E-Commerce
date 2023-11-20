@@ -18,9 +18,9 @@ export class FeaturedProductsComponent {
     },{
       scrollTrigger:{
         trigger:".Featured_Title ",
-        start:"top 80%",
-        end:"center 90%",
-        markers:true,
+        start:"top 100%",
+        end:"center 100%",
+        // markers:true,
         toggleActions:'play none reverse',
         scrub:3
 
@@ -40,9 +40,9 @@ export class FeaturedProductsComponent {
     },{
       scrollTrigger:{
         trigger:".Product ",
-        start:"top 80%",
-        end:"center 90%",
-        markers:true,
+        start:"top 90%",
+        end:"+=200 90%",
+        // markers:true,
         toggleActions:'play none reverse',
         scrub:3
 

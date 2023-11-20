@@ -2,12 +2,13 @@
     overflow-x: hidden;
 }
 .F_Products{
-    padding: 3rem;
+    padding: 2rem;
     overflow: hidden;
     .Product{
         width: 200px;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         border-radius:2px;
+        background: rgb(240, 240, 240);
         text-align: center;
         .Product_Img{
             border-radius: 2px 2px 0 0;
@@ -18,4 +19,15 @@
            
         }
     }
+}
+.View_All{
+    width: max-content;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.View_All:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s all;
 }

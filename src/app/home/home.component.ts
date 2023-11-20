@@ -57,5 +57,7 @@ export class HomeComponent {
       // duration:1,
       // display:'block',
     })
+
+    
   }
 }
